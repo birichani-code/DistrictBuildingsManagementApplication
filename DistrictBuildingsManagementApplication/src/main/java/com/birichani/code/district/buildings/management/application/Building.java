@@ -1,9 +1,11 @@
 package com.birichani.code.district.buildings.management.application;
 
-import lombok.*;
+import lombok.Data;
 
-import javax.persistence.*;
-
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Data
 @Entity
@@ -16,8 +18,5 @@ public class Building {
     private int noOfFloors;
     private double areaMetres;
     private String owner;
-    private  int yearOfConstruction;
-
-
-
+    private int yearOfConstruction;
 }

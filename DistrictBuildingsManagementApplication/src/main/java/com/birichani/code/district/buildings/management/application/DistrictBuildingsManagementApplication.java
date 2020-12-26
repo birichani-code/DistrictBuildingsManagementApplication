@@ -1,4 +1,4 @@
-package com.birichani.code.DistrictBuildingsManagementApplication;
+package com.birichani.code.district.buildings.management.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

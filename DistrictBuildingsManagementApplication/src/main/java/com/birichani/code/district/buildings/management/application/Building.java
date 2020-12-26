@@ -9,14 +9,14 @@ import javax.persistence.*;
 @Entity
 public class Building {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String address;
-    private int no_of_apartments;
-    private int no_of_floors;
-    private double area_metres;
+    private int noOfApartments;
+    private int noOfFloors;
+    private double areaMetres;
     private String owner;
-    private  int year_of_construction;
+    private  int yearOfConstruction;
 
 
 

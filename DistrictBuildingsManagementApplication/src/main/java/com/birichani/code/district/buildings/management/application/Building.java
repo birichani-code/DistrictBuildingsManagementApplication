@@ -4,14 +4,9 @@ import lombok.*;
 
 import javax.persistence.*;
 
-@AllArgsConstructor
-@NoArgsConstructor
-@Setter
-@Getter
-@ToString
+
 @Data
 @Entity
-@Table
 public class Building {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

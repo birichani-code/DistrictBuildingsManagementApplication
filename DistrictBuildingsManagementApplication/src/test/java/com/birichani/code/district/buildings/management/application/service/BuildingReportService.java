@@ -1,8 +1,8 @@
-package com.birichani.code.DistrictBuildingsManagementApplication.service;
+package com.birichani.code.district.buildings.management.application.service;
 
 
-import com.birichani.code.DistrictBuildingsManagementApplication.Building;
-import com.birichani.code.DistrictBuildingsManagementApplication.repository.BuildingRepository;
+import com.birichani.code.district.buildings.management.application.Building;
+import com.birichani.code.district.buildings.management.application.repository.BuildingRepository;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 import org.springframework.beans.factory.annotation.Autowired;

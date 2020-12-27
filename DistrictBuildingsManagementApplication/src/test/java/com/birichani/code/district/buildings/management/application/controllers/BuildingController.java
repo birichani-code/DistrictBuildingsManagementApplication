@@ -1,11 +1,10 @@
-package com.birichani.code.DistrictBuildingsManagementApplication.controllers;
+package com.birichani.code.district.buildings.management.application.controllers;
 
-import com.birichani.code.DistrictBuildingsManagementApplication.Building;
-import com.birichani.code.DistrictBuildingsManagementApplication.repository.BuildingRepository;
-import com.birichani.code.DistrictBuildingsManagementApplication.service.BuildingReportService;
+import com.birichani.code.district.buildings.management.application.Building;
+import com.birichani.code.district.buildings.management.application.repository.BuildingRepository;
+import com.birichani.code.district.buildings.management.application.service.BuildingReportService;
 import net.sf.jasperreports.engine.JRException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
